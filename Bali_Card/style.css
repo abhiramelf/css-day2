@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-image: url('./Bali.avif');
+    width: 700px;
+    height: 400px;
+    margin: 50px auto;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.container-body {
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.btn {
+    border: none;
+    border-radius: 20px;
+    padding: 12px 25px;
+    font-weight: 500;
+}
