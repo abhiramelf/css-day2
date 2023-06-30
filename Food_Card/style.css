@@ -1,0 +1,84 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2, h3, p {
+    margin: 0;
+}
+
+h3 {
+    font-weight: normal;
+    color: gray;
+}
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+}
+
+.container:hover {
+    cursor: pointer;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 14px;
+    margin-top: 39px;
+    padding: 10px;
+    box-shadow: 
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.food-img {
+    position: relative;
+}
+
+.f-img {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.promoted {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 10px;
+    color: rgb(200, 200, 200);
+    background-color: gray;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.discount {
+    position: absolute;
+    bottom: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: dodgerblue;
+    padding: 1px 8px;
+}
+
+.time {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    font-size: 15px;
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.footer {
+    font-size: 13px;
+    margin: 15px auto;
+    color: gray;
+}
+
+.s-img {
+    width: 60px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
